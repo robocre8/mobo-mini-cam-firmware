@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "random": "cpp"
+    },
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/samuko-things/ros_ws/build/opencv_image_subscriber",
+        "/home/samuko-things/ros_ws/install/opencv_image_subscriber/lib/python3.12/site-packages",
+        "/home/samuko-things/ros_ws/build/helloworld_py",
+        "/home/samuko-things/ros_ws/install/helloworld_py/lib/python3.12/site-packages",
+        "/home/samuko-things/ros_ws/build/arrow_key_teleop_drive",
+        "/home/samuko-things/ros_ws/install/arrow_key_teleop_drive/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/samuko-things/ros_ws/build/opencv_image_subscriber",
+        "/home/samuko-things/ros_ws/install/opencv_image_subscriber/lib/python3.12/site-packages",
+        "/home/samuko-things/ros_ws/build/helloworld_py",
+        "/home/samuko-things/ros_ws/install/helloworld_py/lib/python3.12/site-packages",
+        "/home/samuko-things/ros_ws/build/arrow_key_teleop_drive",
+        "/home/samuko-things/ros_ws/install/arrow_key_teleop_drive/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
