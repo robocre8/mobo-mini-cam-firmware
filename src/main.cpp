@@ -4,8 +4,8 @@
 #include <ESPmDNS.h>
 
 // ---------------- WIFI ----------------
-const char* ssid = "samukospot";
-const char* password = "samuko312";
+const char* ssid = "mobobot1234";
+const char* password = "mobobot1234";
 
 #define FLASH_LED_PIN 4
 
@@ -202,7 +202,7 @@ void setup()
     }
 
     // Initialize mDNS
-  if (!MDNS.begin("espcam")) {   // Set the hostname to "esp32.local"
+  if (!MDNS.begin("mobobot-cam")) {   // Set the hostname to "mobobot-cam.local"
     Serial.println("Error setting up MDNS responder!");
     while(1) {
       delay(1000);
@@ -213,7 +213,7 @@ void setup()
     Serial.println();
     Serial.print("Camera Stream Ready: http://");
     // Serial.print(WiFi.localIP());
-    // Serial.print("mobo-mini-cam");
+    // Serial.print("mobobot-cam");
     Serial.println(":81/stream");
 
     digitalWrite(FLASH_LED_PIN, LOW);   // LED OFF
